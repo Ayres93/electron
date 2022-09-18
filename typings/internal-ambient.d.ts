@@ -1,4 +1,4 @@
-/* eslint-disable no-var */
+/* eslint-disable bar-var */
 declare var internalBinding: any;
 declare var binding: { get: (name: string) => any; process: NodeJS.Process; createPreloadScript: (src: string) => Function };
 
